@@ -76,6 +76,7 @@ body {
   color: #919aa1;
   text-align: left;
   background-color: #fff;
+  background: url(img/wallpaper3.jpg) no-repeat center fixed;
 }
 
 [tabindex="-1"]:focus {
@@ -612,6 +613,7 @@ pre code {
       flex-wrap: wrap;
   margin-right: -15px;
   margin-left: -15px;
+
 }
 
 .no-gutters {
@@ -636,6 +638,7 @@ pre code {
   min-height: 1px;
   padding-right: 15px;
   padding-left: 15px;
+  
 }
 
 .col {
@@ -948,6 +951,7 @@ pre code {
         -ms-flex: 0 0 83.3333333333%;
             flex: 0 0 83.3333333333%;
     max-width: 83.3333333333%;
+      justify-content: center;
   }
   .col-sm-11 {
     -webkit-box-flex: 0;
@@ -4991,6 +4995,7 @@ tbody.collapse.show {
   margin-bottom: 2rem;
   background-color: #f7f7f9;
   border-radius: 0;
+
 }
 
 @media (min-width: 576px) {
